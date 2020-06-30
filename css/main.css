@@ -4,7 +4,10 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
 .highlighted_news {
-    color: #b25;
+    /* color: #b25; */
+    color: #2C3E50;
+    margin: .5em -.5em 0em;
+    font-weight: 100;
 }
 
 body {
