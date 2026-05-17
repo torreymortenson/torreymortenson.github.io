@@ -1,0 +1,111 @@
+{
+  "basics": {
+    "name": "Torrey J. Mortenson, PhD",
+    "email": "torrey.mortenson@inl.gov",
+    "phone": "(208) 530-1135",
+    "website": "https://torreymortenson.github.io",
+    "summary": "Human Factors Research Scientist at Idaho National Laboratory. Adjunct Professor at University of Idaho. Founder of Civix Design. Research interests in human reliability analysis, human-computer interaction, explainable AI, and cognitive modeling in safety-critical systems.",
+    "location": {
+      "address": "",
+      "postalCode": "83415",
+      "city": "Idaho Falls",
+      "countryCode": "US",
+      "region": "Idaho"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "torreymortenson",
+        "url": "https://github.com/torreymortenson"
+      },
+      {
+        "network": "Civix Design",
+        "username": "",
+        "url": "https://civixdesign.com"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Civix Design",
+      "position": "Founder & Chief Experience Officer",
+      "website": "https://civixdesign.com",
+      "startDate": "2025",
+      "endDate": "",
+      "summary": "Human-centered design consultancy focused on civic services and high-stakes public/private sector clients. Services include service design, digital design, ADA/WCAG accessibility compliance, AI integration and risk evaluation, and process design.",
+      "highlights": []
+    },
+    {
+      "company": "Idaho National Laboratory / Battelle Energy Alliance",
+      "position": "Human Factors Research Scientist",
+      "website": "https://www.inl.gov",
+      "startDate": "2019",
+      "endDate": "",
+      "summary": "Research in human reliability analysis, human factors, interface development and design, and data visualization. Developing NRC guidance on advanced reactor operator licensing and remote/autonomous operations human factors.",
+      "highlights": []
+    },
+    {
+      "company": "University of Idaho",
+      "position": "Adjunct Professor",
+      "website": "https://www.uidaho.edu",
+      "startDate": "2022",
+      "endDate": "",
+      "summary": "Graduate and undergraduate instruction in human performance, safety, and human-computer interaction. Courses include PSYC561 (HCI), INDT466 (Human Performance Field Investigation), TM528 (Accident Investigation), and NE404 (Human Centered Design for Nuclear Systems).",
+      "highlights": []
+    },
+    {
+      "company": "Idaho National Laboratory",
+      "position": "Materials and Fuels Complex Performance Analyst",
+      "website": "https://www.inl.gov",
+      "startDate": "2018",
+      "endDate": "2019",
+      "summary": "Supported Post-Irradiation Examination and Advanced Characterization divisions on Contractor Assurance principles. Developed HPI tools and management review meeting templates. Cause analyst on emergent incidents.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Idaho",
+      "area": "Biological Engineering (Human Factors focus)",
+      "studyType": "PhD",
+      "startDate": "2019",
+      "endDate": "2024",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "University of Idaho",
+      "area": "Experimental Psychology",
+      "studyType": "MS",
+      "startDate": "2017",
+      "endDate": "2019",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "Idaho State University",
+      "area": "Philosophy",
+      "studyType": "BA",
+      "startDate": "2008",
+      "endDate": "2014",
+      "gpa": null,
+      "courses": []
+    }
+  ],
+  "skills": [
+    { "name": "Human Reliability Analysis" },
+    { "name": "Human Factors Engineering" },
+    { "name": "Human-Computer Interaction" },
+    { "name": "Cognitive Modeling" },
+    { "name": "Information Visualization" },
+    { "name": "AI/ML Human Factors" },
+    { "name": "Service Design" },
+    { "name": "Accessibility / WCAG 2.1" },
+    { "name": "Usability Evaluation" },
+    { "name": "Risk-Informed Design" }
+  ],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "publications": []
+}

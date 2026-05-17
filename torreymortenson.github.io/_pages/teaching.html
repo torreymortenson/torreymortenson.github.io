@@ -1,0 +1,15 @@
+---
+layout: archive
+title: "Teaching"
+permalink: /teaching/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>I teach graduate and undergraduate courses in human factors, human performance, and human-computer interaction at the <a href="https://www.uidaho.edu">University of Idaho</a>, Idaho Falls campus. I also develop and deliver professional training at Idaho National Laboratory for the U.S. Nuclear Regulatory Commission.</p>
+
+{% assign teaching_sorted = site.teaching | sort: "date" | reverse %}
+{% for post in teaching_sorted %}
+  {% include archive-single.html %}
+{% endfor %}

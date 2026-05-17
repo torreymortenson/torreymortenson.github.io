@@ -1,0 +1,18 @@
+# main links
+main:
+  - title: "About"
+    url: /
+  - title: "Publications"
+    url: /publications/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Talks"
+    url: /talks/
+  - title: "CV"
+    url: /cv/
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "Blog"
+    url: /year-archive/
+  - title: "Civix Design"
+    url: https://civixdesign.com
