@@ -155,7 +155,7 @@
   }
 }
 
-@include breakpoint(max-width $medium) {
+@include breakpoint(max-width 600px) {
   .greedy-nav .navicon {
     display: block;
     margin-left: auto;
