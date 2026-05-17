@@ -132,3 +132,21 @@
     padding-bottom: 0.25em;
   }
 }
+/* ---- Dark mode via data-theme attribute ---- */
+[data-theme="dark"] {
+  --global-bg-color: #1a1a2e;
+  --global-text-color: #e0e0e0;
+  --global-text-color-light: #aaaaaa;
+  --global-link-color: var(--civix-sky);
+  --global-border-color: #333355;
+  --global-footer-bg-color: #0a0a1a;
+  --global-code-background-color: #2a2a3e;
+}
+
+[data-theme="light"] {
+  --global-bg-color: #fff;
+  --global-text-color: #494e52;
+  --global-text-color-light: #7a8288;
+  --global-link-color: #156082;
+  --global-border-color: #f2f3f3;
+}
