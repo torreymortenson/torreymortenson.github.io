@@ -1,84 +1,36 @@
 /* ==========================================================================
-   MASTHEAD - Civix colors only, layout handled by theme defaults
+   MASTHEAD - colors only
    ========================================================================== */
 
 .masthead {
-  background-color: var(--civix-navy) !important;
-  border-bottom: 3px solid var(--civix-orange);
-}
-
-.masthead__inner-wrap {
-  background-color: var(--civix-navy);
+  background-color: #0E2841 !important;
+  border-bottom: 3px solid #E97132 !important;
 }
 
 .greedy-nav {
-  background: var(--civix-navy);
+  background: #0E2841 !important;
+}
 
-  a {
-    color: #ffffff;
+.greedy-nav a {
+  color: #ffffff !important;
+}
 
-    &:hover {
-      color: var(--civix-orange);
-    }
-  }
+.greedy-nav a:hover {
+  color: #E97132 !important;
+}
 
-  .visible-links a {
-    color: #ffffff;
+.greedy-nav .visible-links a:before {
+  background: #E97132 !important;
+}
 
-    &:hover {
-      color: var(--civix-orange);
-    }
+.greedy-nav .hidden-links {
+  background: #0E2841 !important;
+}
 
-    &:before {
-      background: var(--civix-orange);
-    }
-  }
-
-  .hidden-links {
-    background: var(--civix-navy);
-
-    a {
-      color: #ffffff;
-
-      &:hover {
-        color: var(--civix-orange);
-      }
-    }
-  }
-
-  button {
-    background: var(--civix-navy);
-
-    .navicon,
-    .navicon:before,
-    .navicon:after {
-      background: #ffffff;
-    }
-  }
+.greedy-nav button {
+  background: #0E2841 !important;
 }
 
 .site-title {
   color: #ffffff !important;
-
-  &:hover {
-    color: var(--civix-orange) !important;
-  }
-}
-/* Force visible-links to show on desktop */
-.greedy-nav .visible-links {
-  display: flex !important;
-}
-
-.greedy-nav button.greedy-nav__toggle {
-  display: none !important;
-}
-
-@media (max-width: 600px) {
-  .greedy-nav .visible-links {
-    display: none !important;
-  }
-
-  .greedy-nav button.greedy-nav__toggle {
-    display: block !important;
-  }
 }
