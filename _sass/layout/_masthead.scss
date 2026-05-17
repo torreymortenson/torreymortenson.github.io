@@ -140,7 +140,7 @@
   }
 }
 
-@include breakpoint(max-width $large) {
+@include breakpoint(max-width $medium) {
   .greedy-nav .navicon {
     display: block;
     margin-left: auto;
