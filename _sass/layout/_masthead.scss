@@ -64,3 +64,21 @@
     color: var(--civix-orange) !important;
   }
 }
+/* Force visible-links to show on desktop */
+.greedy-nav .visible-links {
+  display: flex !important;
+}
+
+.greedy-nav button.greedy-nav__toggle {
+  display: none !important;
+}
+
+@media (max-width: 600px) {
+  .greedy-nav .visible-links {
+    display: none !important;
+  }
+
+  .greedy-nav button.greedy-nav__toggle {
+    display: block !important;
+  }
+}
