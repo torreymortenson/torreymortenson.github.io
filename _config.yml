@@ -23,10 +23,10 @@ author:
   # Academic websites
   academia         :
   arxiv            :
-  googlescholar    : # Add your Google Scholar URL when available
+  googlescholar    : "https://scholar.google.com/citations?user=bARXPC0AAAAJ&hl=en&oi=ao"
   inspire-hep      :
   impactstory      :
-  orcid            : # Add your ORCID URL when available
+  orcid            :  "https://orcid.org/0000-0003-4027-7410"
   semantic         :
   ssrn             :
   pubmed           :
@@ -53,7 +53,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # Add your LinkedIn username when available
+  linkedin         : "torreymortenson"
   mastodon         :
   medium           :
   pinterest        :
