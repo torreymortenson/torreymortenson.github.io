@@ -1,195 +1,66 @@
 /* ==========================================================================
-   MASTHEAD
+   MASTHEAD - Civix colors only, layout handled by theme defaults
    ========================================================================== */
 
 .masthead {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 20;
-  background-color: var(--civix-navy);
+  background-color: var(--civix-navy) !important;
   border-bottom: 3px solid var(--civix-orange);
-
-  &__inner-wrap {
-    @include clearfix;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0.5em 1em;
-    max-width: 100%;
-    display: flex;
-    justify-content: space-between;
-    font-family: $global-font-family;
-    align-items: center;
-  }
 }
 
-.site-title {
-  display: flex;
-  align-self: center;
-  font-weight: bold;
-  font-size: $type-size-5;
-  color: #ffffff !important;
-  text-decoration: none;
-  letter-spacing: 0.02em;
-
-  &:hover {
-    color: var(--civix-orange) !important;
-    text-decoration: none;
-  }
-}
-
-.site-subtitle {
-  display: block;
-  font-size: $type-size-8;
+.masthead__inner-wrap {
+  background-color: var(--civix-navy);
 }
 
 .greedy-nav {
-  position: relative;
-  display: flex;
-  align-items: center;
   background: var(--civix-navy);
 
   a {
-    display: block;
-    margin: 0 1rem;
-    padding: 0.5rem 0;
     color: #ffffff;
-    text-decoration: none;
-    font-size: $type-size-6;
-    font-weight: 500;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
 
     &:hover {
       color: var(--civix-orange);
     }
   }
-  .theme-toggle {
-    background: none;
-    border: 1px solid rgba(255,255,255,0.4);
-    border-radius: 4px;
+
+  .visible-links a {
     color: #ffffff;
-    cursor: pointer;
-    font-size: $type-size-6;
-    padding: 0.2em 0.5em;
-    margin-left: 0.5rem;
 
     &:hover {
-      border-color: var(--civix-orange);
       color: var(--civix-orange);
     }
-  }
 
-  .visible-links {
-    display: flex;
-    justify-content: flex-end;
-    flex: 1;
-    overflow: hidden;
-
-    li {
-      flex: none;
-    }
-
-    li:last-child a {
-      margin-right: 0;
+    &:before {
+      background: var(--civix-orange);
     }
   }
 
   .hidden-links {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    margin-top: 15px;
-    padding: 5px;
-    border: 1px solid var(--global-border-color);
-    border-radius: $border-radius;
     background: var(--civix-navy);
-    box-shadow: 0 2px 4px 0 rgba(0,0,0, 0.16), 0 2px 10px 0 rgba(0,0,0, 0.12);
-
-    &.hidden {
-      display: none;
-    }
 
     a {
-      margin: 0;
-      padding: 10px 20px;
-      font-size: $type-size-5;
       color: #ffffff;
 
       &:hover {
         color: var(--civix-orange);
-        background: rgba(255,255,255,0.05);
       }
-    }
-
-    li {
-      display: block;
-      border-bottom: 1px solid rgba(255,255,255,0.1);
-    }
-
-    li:last-child {
-      border-bottom: none;
     }
   }
 
-  .navicon {
-    display: none;
-    height: $navicon-height;
-    width: $navicon-width;
-    cursor: pointer;
-    z-index: 20;
+  button {
+    background: var(--civix-navy);
 
-    .navicon-line {
-      display: block;
-      height: $navicon-height;
-      width: $navicon-width;
+    .navicon,
+    .navicon:before,
+    .navicon:after {
       background: #ffffff;
-      transition: $global-transition;
-      margin-top: 4px;
-    }
-
-    .navicon-line:first-child {
-      margin-top: 0;
     }
   }
 }
 
-@include breakpoint(max-width 600px) {
-  .greedy-nav .navicon {
-    display: block;
-    margin-left: auto;
-  }
+.site-title {
+  color: #ffffff !important;
 
-  .greedy-nav .visible-links {
-    display: none;
-  }
-
-  .greedy-nav .visible-links.nav-open {
-    display: block;
-    position: fixed;
-    top: $masthead-height;
-    left: 0;
-    right: 0;
-    background: var(--civix-navy);
-    padding: 1em 0;
-    border-top: 1px solid rgba(255,255,255,0.1);
-  }
-
-  .greedy-nav .visible-links.nav-open li {
-    display: block;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-  }
-
-  .greedy-nav .visible-links.nav-open li:last-child {
-    border-bottom: none;
-  }
-
-  .greedy-nav .visible-links.nav-open a {
-    display: block;
-    margin: 0;
-    padding: 15px 20px;
-    font-size: $type-size-5;
-    text-align: center;
+  &:hover {
+    color: var(--civix-orange) !important;
   }
 }
