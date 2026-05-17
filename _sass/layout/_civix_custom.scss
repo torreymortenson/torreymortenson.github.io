@@ -1,0 +1,134 @@
+/* ==========================================================================
+   CIVIX CUSTOM STYLES
+   ========================================================================== */
+
+/* ---- Publication buttons ---- */
+.pub-links {
+  margin-top: 0.5em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+
+  a, span {
+    display: inline-block;
+    padding: 0.2em 0.6em;
+    font-size: 0.75em;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+
+  a.btn-doi {
+    background: var(--civix-blue);
+    color: #fff;
+    &:hover { background: var(--civix-navy); color: #fff; }
+  }
+
+  a.btn-pdf {
+    background: var(--civix-orange);
+    color: #fff;
+    &:hover { background: #c85e20; color: #fff; }
+  }
+
+  a.btn-abstract {
+    background: transparent;
+    color: var(--civix-blue);
+    border: 1px solid var(--civix-blue);
+    cursor: pointer;
+    &:hover { background: var(--civix-blue); color: #fff; }
+  }
+
+  span.btn-inpress {
+    background: #aaa;
+    color: #fff;
+    cursor: default;
+  }
+}
+
+.abstract-text {
+  display: none;
+  margin-top: 0.75em;
+  padding: 0.75em 1em;
+  background: #f5f8fa;
+  border-left: 3px solid var(--civix-sky);
+  font-size: 0.9em;
+  line-height: 1.6;
+  color: var(--global-text-color);
+}
+
+/* ---- Publication list ---- */
+.pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pub-item {
+  padding: 1.25em 0;
+  border-bottom: 1px solid var(--global-border-color);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.pub-title {
+  font-weight: 600;
+  font-size: 1em;
+  margin-bottom: 0.2em;
+  color: var(--global-text-color);
+}
+
+.pub-authors {
+  font-size: 0.9em;
+  color: var(--global-text-color-light);
+  margin-bottom: 0.15em;
+}
+
+.pub-venue {
+  font-size: 0.9em;
+  font-style: italic;
+  color: var(--global-text-color-light);
+  margin-bottom: 0.4em;
+
+  .pub-status {
+    font-style: normal;
+    font-weight: 600;
+    color: var(--civix-orange);
+    font-size: 0.85em;
+  }
+}
+
+/* ---- Footer override ---- */
+.page__footer {
+  background-color: var(--civix-navy) !important;
+  color: rgba(255,255,255,0.8);
+
+  a {
+    color: var(--civix-sky);
+    &:hover { color: var(--civix-orange); }
+  }
+
+  footer {
+    background-color: var(--civix-navy) !important;
+  }
+}
+
+/* ---- Sidebar author links ---- */
+.author__urls {
+  a {
+    color: var(--civix-blue);
+    &:hover { color: var(--civix-orange); }
+  }
+}
+
+/* ---- Section heading accent ---- */
+.page__content {
+  h2 {
+    border-bottom: 2px solid var(--civix-orange);
+    padding-bottom: 0.25em;
+  }
+}
